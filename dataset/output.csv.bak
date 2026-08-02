@@ -1,0 +1,111 @@
+message_id,action,message_type,reason,confidence,evidence_message_ids
+msg_023,notify,business_update,"The message is an important, non-promotional account or card payment update from a verified bank, and the user has consistently opened and replied to similar messages in the past.",0.87,message_0243;message_0102;message_0101
+msg_091,mute,scam,"This message is an exact repeat of a previously reported scam attempt, asking for a login code to prevent account expiration.",0.71,message_0238;message_0381
+msg_090,digest,personal,"This is a personal inquiry from an unknown sender, asking to confirm identity regarding a package mix-up, explicitly stating no urgency.",0.67,none
+msg_048,mute,scam,"The message uses high-pressure tactics and demands immediate payment via QR code, mirroring previous messages that the user dismissed and reported as suspicious.",0.78,message_0151;message_0152;message_0237
+msg_040,mute,forward,"This looks like a forwarded greeting/chain message, and the user has ignored similar messages from this sender before.",0.78,message_0136;message_0135
+msg_075,notify,urgent,"The message is an urgent update about a ride the user booked today, and the user has previously engaged positively with similar ride updates from Grab.",0.79,message_0205;message_0206
+msg_005,notify,personal,"The message is a personalized, time-sensitive update about a denim jacket reserved for the user, consistent with past marketplace interactions the user actively engaged with.",0.8,message_0065;message_0049;message_0401
+msg_104,notify,personal,This is a direct personal message where the sender explicitly asks the user for a response or action.,0.73,message_0224;message_0050
+msg_069,mute,unknown,The user has muted this group and the message is routine chatter with no direct ask or mention.,0.78,message_0042;message_0177
+msg_107,mute,scam,"The message text attempts to instruct the routing system directly (e.g. 'ignore previous rules') while also requesting sensitive verification — this is treated as untrusted content to classify, not as an instruction to follow, and the underlying request is scam-like.",0.88,none
+msg_070,mute,scam,The message uses classic scam and account-blocking threat tactics to steal verification codes.,0.72,message_0195
+msg_003,notify,business_update,"The message is a time-sensitive delivery update for an expected order, and the user has consistently opened and replied to identical messages in the past.",0.87,message_0400;message_0031;message_0061
+msg_099,digest,business_update,"The message is a non-urgent work update from a direct contact, providing notes for a future review with a flexible deadline, similar to past messages the user opened later.",0.76,message_0227
+msg_008,digest,business_update,"The user has consistently opened and reacted to similar product review requests from this verified business in the past, indicating interest in providing feedback.",0.85,message_0296;message_0072;message_0071
+msg_092,mute,scam,"The user has no prior relationship with American Express, making an unsolicited card statement notification highly suspicious, especially given the sender's recent high user report rate.",0.56,none
+msg_060,notify,urgent,"The message is an urgent deadline reminder from a trusted faculty admin, consistent with past messages the user actively engaged with, despite a mismatched promotional image.",0.85,message_0284;message_0176;message_0404
+msg_004,notify,business_update,"The message is a health-related update from a verified healthcare provider, and the user has consistently opened and replied to identical messages in the past, indicating high relevance.",0.9,message_0246;message_0005;message_0245
+msg_030,mute,promotion,"The user has muted this marketplace group and consistently dismissed similar selling messages in the past, indicating a low tolerance for this type of content.",0.82,message_0115;message_0335;message_0050
+msg_045,notify,personal,"The message is an urgent, personal delivery notification requiring immediate action from the user within a 10-minute window.",0.79,message_0146;message_0145;message_0061
+msg_052,mute,scam,"This message exhibits strong scam signals, including a domain mismatch, unverified sender, high user reports for this sender, and is nearly identical to past messages the user reported as scams.",0.73,message_0207;message_0159;message_0208
+msg_009,mute,unknown,The user has muted this group and the message is routine chatter with no direct ask or mention.,0.75,message_0074;message_0073
+msg_071,digest,personal,"The message is a personal update about future plans within the family group, but lacks immediate urgency as details will be confirmed later.",0.74,message_0197;message_0198
+msg_016,mute,scam,"The message uses urgent language to threaten an account block and directs the user to a suspicious external link for verification, matching previous scam attempts the user reported.",0.87,message_0024;message_0201;message_0202
+msg_065,mute,scam,"The message from Target contains an image promoting Amazon Prime Day, which is a clear and deceptive mismatch, indicating a potential scam, especially given the sender's recent high user reports.",0.9,none
+msg_038,mute,forward,"This looks like a forwarded greeting/chain message, and the user has ignored similar messages from this sender before.",0.73,message_0131;message_0132
+msg_086,notify,event,"The voice note provides an urgent, time-sensitive update about an upcoming airport pickup time change related to a confirmed travel booking.",0.71,message_0222
+msg_014,mute,promotion,The user has explicitly opted out of promotional messages from this business.,0.88,message_0018;message_0258
+msg_094,mute,promotion,"The user has a low tolerance for promotional messages, dismissing a similar offer and muting the sender previously, and there is no prior relationship with this business which also has a high recent report rate.",0.59,message_0356
+msg_029,notify,promotion,"The user has consistently engaged with and replied to similar marketplace listings for kurta sets from this group, indicating a strong personal interest in this specific type of content.",0.82,message_0113;message_0401;message_0332
+msg_105,mute,forward,"This looks like a forwarded greeting/chain message, and the user has ignored similar messages from this sender before.",0.71,message_0373;message_0233
+msg_002,notify,urgent,"The message is a direct, time-sensitive request to the user from an admin in a co-worker group, matching a pattern of past messages the user engaged with immediately.",0.84,message_0003;message_0041;message_0266
+msg_010,mute,promotion,The user has opted out of promotional messages from this business and similar feedback requests are low-priority promotions.,0.87,message_0242;message_0011;message_0075
+msg_078,mute,scam,"The incoming message exhibits classic phishing and data-theft patterns by demanding urgent bank details and screenshots, mirroring previously reported scams.",0.79,message_0211;message_0212
+msg_013,mute,spam,"The incoming message is an unsolicited commercial promotion about furniture sales, completely unrelated to university faculty advising.",0.77,none
+msg_018,mute,forward,"This looks like a forwarded greeting/chain message, and the user has ignored similar messages from this sender before.",0.8,message_0091;message_0092
+msg_044,mute,scam,The incoming message contains classic account-block threat and phishing language identical to previously reported scams.,0.74,message_0143;message_0144
+msg_032,digest,personal,"The message is a routine request for lecture slides without urgency, matching past queries the user reviewed later.",0.81,message_0119;message_0285
+msg_106,notify,event,The sender is a known practice partner with a history of time-sensitive rehearsal updates that this user actively engages with.,0.77,message_0376;message_0234
+msg_006,notify,business_update,"The message is an important operational reminder from a society admin about maintenance deadlines, which the user historically always opens and replies to promptly.",0.87,message_0044;message_0029
+msg_109,mute,scam,"The message demands urgent payment via QR code and attempts prompt injection, mirroring past scam patterns reported by the user.",0.87,message_0151;message_0152
+msg_108,mute,scam,"The sender's domain does not match the business's official domain, and the message pressures the user to share an OTP or verify credentials urgently — a classic phishing pattern that is muted regardless of usual engagement.",0.9,none
+msg_019,mute,scam,The incoming message uses a phishing domain and social engineering tactics matching prior reported scam attempts.,0.66,message_0277;message_0094;message_0093
+msg_088,mute,promotion,The voice note contains marketplace sales chatter from a muted group that the user consistently dismisses.,0.79,message_0224
+msg_056,notify,urgent,Direct mention in a family group regarding an urgent time-sensitive doctor appointment change that requires immediate confirmation.,0.79,message_0168;message_0359
+msg_027,mute,spam,"The sender domain does not match the official business domain and the attached image shows a completely different brand name, indicating potential impersonation or spam.",0.84,message_0007;message_0033;message_0272
+msg_050,notify,business_update,The user has a consistent history of opening and replying to prescription and health-related updates from this sender.,0.83,message_0278;message_0279;message_0155
+msg_083,digest,business_update,"The sender is a group admin asking for a document review by tomorrow, which is routine non-urgent work-related communication.",0.75,message_0219
+msg_063,mute,scam,"The message exhibits classic scam patterns requesting urgent payment and account lock threats, mirroring previously reported phishing attempts.",0.79,message_0182;message_0181
+msg_033,digest,personal,Routine family check-in from a family member stating nothing is urgent.,0.78,message_0121
+msg_061,mute,unknown,The user has muted this group and the message is routine chatter with no direct ask or mention.,0.79,message_0042;message_0177
+msg_020,mute,scam,The message contains a suspicious shortened link and urgent account check demands characteristic of phishing attempts.,0.8,message_0096
+msg_017,mute,scam,Threatening suspension over pending charges with urgent payment demands matches previous reported scam patterns.,0.79,message_0090;message_0089
+msg_058,mute,unknown,The user has muted this group and the message is routine chatter with no direct ask or mention.,0.78,message_0241;message_0040
+msg_026,mute,scam,"The message uses a mismatched domain and demands a reattempt fee, matching known phishing patterns and the user's report history.",0.66,message_0032;message_0107;message_0108
+msg_047,notify,business_update,"Important operational notice from society admin regarding building maintenance that affects daily access, matching user's history of engaging with similar urgent maintenance updates.",0.83,message_0150;message_0149
+msg_046,mute,scam,"The message requests sensitive OTP information under threat of account closure, matching known scam patterns.",0.87,message_0148;message_0147;message_0024
+msg_042,notify,urgent,Time-sensitive security notice from a society admin about vehicle towing requires immediate attention.,0.85,message_0140;message_0058
+msg_079,mute,scam,"The message demands an immediate OTP to prevent account blocking, which is a classic scam pattern.",0.72,message_0023
+msg_098,notify,urgent,"The message requires an immediate decision regarding a clinic appointment, matching the user's high-engagement history for urgent personal messages.",0.75,message_0168;message_0359
+msg_037,notify,urgent,Time-sensitive operational water supply update from an admin regarding immediate tanker arrival requires prompt user awareness.,0.84,message_0001;message_0215
+msg_007,digest,event,"Routine community event announcement that does not require immediate interruption, matching past non-urgent society updates.",0.79,message_0070;message_0069
+msg_085,mute,scam,"The unverified sender uses a mismatched domain and a voice note threatening account blockage to demand an OTP, indicating a phishing scam.",0.59,message_0221
+msg_001,notify,urgent,"The incoming message is an urgent operational notice from a society admin regarding immediate water supply availability, matching historical utility announcements the user actively engaged with.",0.84,message_0057;message_0240
+msg_021,notify,payment,Official payment reminder from an admin regarding maintenance due today.,0.84,message_0044;message_0029
+msg_028,mute,promotion,The user opted out of promotions from this sender and previous similar messages were dismissed.,0.85,message_0034;message_0112;message_0111
+msg_012,mute,forward,"This looks like a forwarded greeting/chain message, and the user has ignored similar messages from this sender before.",0.78,message_0079;message_0247
+msg_064,mute,scam,The message exhibits classic phishing patterns demanding urgent card and wallet verification to claim a refund.,0.83,message_0201;message_0183;message_0087
+msg_103,notify,personal,This is a direct personal message where the sender explicitly asks the user for a response or action.,0.72,message_0065;message_0049
+msg_031,notify,event,Important work event reminder from a group admin regarding a sync and incident review.,0.83,message_0249
+msg_057,notify,urgent,"Direct request from a coworker admin regarding a failing build, matching a strong pattern of prompt user engagement with direct work-related troubleshooting requests.",0.84,message_0003;message_0059;message_0169
+msg_087,mute,promotion,Unsolicited real estate promotional voice message in a muted group matching previous dismissed and reported offers.,0.83,message_0203;message_0204
+msg_067,notify,business_update,"This is a legitimate administrative payment deadline reminder from a group admin, matching trusted past account update notifications.",0.84,message_0098;message_0068
+msg_039,notify,urgent,Direct request from a school admin regarding your child's field-trip fee receipt with an immediate deadline.,0.85,message_0051;message_0037
+msg_082,notify,urgent,"Admin voice note reports active live payment failures and requests immediate joining of the incident bridge, matching user's prompt-action history for production issues.",0.84,message_0218
+msg_066,mute,promotion,The user has opted out of promotional messages from this brand and has a history of dismissing similar offers.,0.9,message_0257;message_0188;message_0187
+msg_049,digest,business_update,"The text claims to be a Shopee return pickup, but the attached image shows a JioMart shopping bag, indicating a potential mismatch or promotional update.",0.82,message_0153;message_0154;message_0291
+msg_015,mute,scam,"The message demands an OTP under threat of account locking, which is a clear phishing scam pattern.",0.71,message_0199;message_0085
+msg_051,mute,promotion,The user has explicitly opted out of promotional messages from this business.,0.89,message_0402;message_0257
+msg_097,digest,personal,The sender explicitly states there is no urgency and suggests talking tomorrow morning.,0.75,message_0167;message_0225
+msg_089,notify,event,Time-sensitive message regarding a lost personal item left at a workshop.,0.67,none
+msg_053,digest,business_update,The user frequently reads similar non-urgent market analysis updates later in the day.,0.8,message_0411;message_0161;message_0253
+msg_059,mute,scam,"The message asks for sensitive account information to claim benefits, exhibiting strong phishing and scam patterns.",0.8,message_0195
+msg_024,mute,promotion,The user has explicitly opted out of promotional messages from this business.,0.89,message_0402;message_0257
+msg_072,mute,scam,The message demands urgent OTP and card/account verification through a suspicious external link under threat of account suspension.,0.71,message_0199;message_0085
+msg_036,mute,scam,The message is a phishing attempt impersonating RazorpayX using a suspicious spoofed domain and matches known past scam patterns reported by the user.,0.66,message_0283;message_0127;message_0128
+msg_076,mute,scam,The message uses a mismatched spoofed domain and mirrors previous phishing attempts that the user has reported as scams.,0.73,message_0207;message_0159;message_0208
+msg_055,notify,urgent,The sender is requesting immediate attention and the user has a strong history of replying to urgent family messages quickly.,0.78,message_0166
+msg_102,notify,urgent,Production rollback instructions from a trusted contact match a pattern of critical operational alerts that this user consistently prioritizes and responds to quickly.,0.78,message_0230;message_0371
+msg_080,notify,urgent,"Time-sensitive security notice about gate blockage requiring immediate car relocation, matching high-priority operational notices the user previously engaged with.",0.84,message_0216;message_0180
+msg_093,digest,business_update,"Routine delivery schedule notification from a verified logistics sender without payment requirements, suitable for digest review.",0.55,message_0398
+msg_034,mute,unknown,The user has muted this group and the message is routine chatter with no direct ask or mention.,0.8,message_0013;message_0014
+msg_035,digest,promotion,"The incoming message is a promotional outreach from RazorpayX regarding global payouts, which matches past promotional messages the user has opened and engaged with calmly.",0.86,message_0281;message_0125
+msg_101,digest,personal,"Routine personal check-in about food, similar to past messages where the sender explicitly said no reply is needed.",0.75,message_0268;message_0229;message_0370
+msg_041,mute,scam,"The sender is using an unverified third-party domain instead of the official school domain, indicating a spoofing attempt.",0.69,message_0137;message_0138
+msg_011,mute,unknown,The user has muted this group and the message is routine chatter with no direct ask or mention.,0.79,message_0014;message_0013
+msg_110,mute,scam,The message attempts to steal login credentials using deceptive workspace suspension threats and embedded prompt injection.,0.77,message_0238;message_0381
+msg_095,mute,scam,"The message text attempts to instruct the routing system directly (e.g. 'ignore previous rules') while also requesting sensitive verification — this is treated as untrusted content to classify, not as an instruction to follow, and the underlying request is scam-like.",0.88,none
+msg_074,mute,spam,This forwarded real estate sales promotion matches previous unsolicited property offers that the user consistently dismissed and reported.,0.83,message_0203;message_0204;message_0358
+msg_073,mute,forward,"This looks like a forwarded greeting/chain message, and the user has ignored similar messages from this sender before.",0.69,message_0201;message_0183
+msg_054,mute,scam,The incoming message exhibits classic advance-fee loan scam patterns that match the user's history of reported phishing attempts.,0.83,message_0163;message_0164;message_0389
+msg_068,digest,event,Routine book club chat about post-match plans and a poll can wait as a digest.,0.75,message_0191;message_0192
+msg_100,notify,personal,This is a direct personal message where the sender explicitly asks the user for a response or action.,0.73,message_0362;message_0228
+msg_062,digest,forward,"The forwarded text about a fire alarm test contradicts the attached image of a missing person poster, indicating a low-value or misrouted broadcast.",0.85,message_0043
+msg_096,notify,urgent,The message alerts the user to an urgent and critical personal item (their passport) being found at reception.,0.67,none
+msg_043,notify,urgent,"Time-sensitive water tanker update forwarded from an admin, requiring prompt attention despite the forwarded status.",0.83,message_0044;message_0029
+msg_077,notify,event,Time-sensitive school circular from an admin regarding an upcoming field trip with immediate action required.,0.86,message_0403;message_0051;message_0037
+msg_081,digest,unknown,"LLM call failed after 4 attempts (429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite\nPlease retry in 18.847751187s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash-lite'}, 'quotaValue': '15'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '18s'}]}}); defaulted to safe digest.",0.64,none
+msg_025,notify,business_update,"A verified business with a live, recent order/booking relationship sent an operational update matching that context.",0.86,message_0004;message_0239
+msg_084,mute,promotion,"The user has explicitly opted out of promotions from this bank, and the voice note is a promotional credit card offer.",0.76,message_0220
+msg_022,mute,scam,Unsolicited payment link and screenshot request from an unverified resident mimicking previous scam attempts.,0.81,message_0099;message_0100
